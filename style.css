@@ -1,0 +1,49 @@
+*{ /*configs padrões*/
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+
+header{ /*Todo o cabeçalho*/
+    width: 100%; /*largura*/
+    background-color: #ffffff;/*cor do fundo*/
+    display: flex;/**/
+    justify-content: space-around;/**/
+    align-items: center;/**/
+    padding: 20px 0;/**/
+    font-family: 'Poppins', sans-serif;/*qual fonte vai estar usando*/
+}
+
+.logo-imagem{ /*Logo da furia*/
+    width: 50px; /*Largura*/
+    height: 50px;/*Altura*/
+    background-color: black;/*Cor do fundo*/
+    border-radius: 25px;/*AAfina as bordas*/
+    
+}
+
+.container-logo{ /*Logo imagem + Logo texto*/
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.menu-inicio li{ /*Listas*/
+    display: inline-block;
+    margin: 0 15px; /*Aumenta a margem de largura*/
+
+}
+
+.menu-inicio li a{ /*Links das listas*/
+    font-size: 24px;/*tamanho da minha fonte*/
+    text-decoration: none;/*decoração do texto*/
+    color: rgb(0, 0, 0);/*Cor das fontes*/
+    text-transform: uppercase;
+}
